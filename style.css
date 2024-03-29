@@ -1,0 +1,34 @@
+@font-face {
+    font-family:"Algerian" ;
+    src: url(fonts/Algerian.woff2);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family:"GreatVibes-Regular";
+    src: url(fonts/GreatVibes-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family:"EmilysCandy-Regular";
+    src: url(fonts/EmilysCandy-Regular.woff2);
+    font-style: normal;
+    font-weight: 400;
+}
+header{background: #76383B;}
+body{margin: 0px;}
+.nav1{ display: flex;  justify-content: center;margin: 0 auto;align-items: center; }
+.nav2{display: flex;flex-direction: column;justify-content: center; }
+.logo{ height: 150px;margin-right: 250px;}   
+ .nav2 img{align-self: center;}
+
+.nav3{ background: #fff ;display: flex;align-items: center;border-radius: 10px;height: 100%;margin: 60px; }
+.lupa{background: url(images/лупа.svg) no-repeat;font-family:"EmilysCandy-Regular"; font-weight: 400;font-size: 30px;  border-radius: 10px;  width: 250px;  height: 48px;border: none;padding-left: 60px;}
+.nav4{ height: 75px; display: flex;display: flex;  justify-content: space-between;margin: 0 auto;align-items: center; width: 1200px;}
+.nav4 a{margin: 0;font-family:"Algerian";font-size: 25px;font-weight: 300;color: #fff; text-shadow: 2px 2px 6px black,2px 2px 6px black,2px 2px 6px black,2px 2px 6px black;text-decoration: none;}
+.nav4 div img{padding: 2px 2px 2px 30px;}
+.main{background-image: url(images/compania.svg);height: 480px;background-repeat: no-repeat; background-position:  -300px -55px;}
+
+.button{border: none;background: #93050C;padding: 25px;border-radius: 40px; color: #fff;text-shadow: 2px 2px 6px black,2px 2px 6px black;font-size: 20px;margin-top: 400px;margin-left: 1150px; }
+.dva{background: #76383B;margin: 0;}
